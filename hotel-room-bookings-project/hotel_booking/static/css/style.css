@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    background:linear-gradient(
+        90deg,
+        #0f172a,
+        #1e293b
+    );
+
+    padding:18px 8%;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+
+    color:#ffffff !important;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+}
+
+.nav-link{
+
+    color:#e2e8f0 !important;
+
+    margin-left:22px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+.nav-link:hover{
+
+    color:#fbbf24 !important;
+}
+
+/* HERO */
+
+.hero{
+
+    width:100%;
+
+    height:100vh;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+
+    url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop');
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+}
+
+.hero-content h1{
+
+    font-size:85px;
+
+    font-weight:700;
+
+    text-shadow:0 5px 20px rgba(0,0,0,0.5);
+}
+
+.hero-content p{
+
+    font-size:28px;
+
+    margin-top:15px;
+
+    color:#f1f5f9;
+}
+
+.hero-content button{
+
+    margin-top:30px;
+
+    padding:15px 45px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#fbbf24;
+
+    color:#0f172a;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    transition:0.3s;
+}
+
+.hero-content button:hover{
+
+    background:#ffffff;
+
+    transform:scale(1.05);
+}
+
+/* SEARCH */
+
+.input-group{
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    border-radius:12px;
+
+    overflow:hidden;
+}
+
+.form-control{
+
+    border:none !important;
+
+    padding:18px;
+}
+
+.btn-dark{
+
+    background:#0f172a !important;
+
+    border:none !important;
+}
+
+/* ROOMS */
+
+.rooms{
+
+    padding:90px 8%;
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+    font-size:50px;
+
+    font-weight:700;
+
+    color:#0f172a;
+}
+
+.room-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+    transition:0.4s;
+}
+
+.room-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.room-card img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+}
+
+.room-info{
+
+    padding:25px;
+}
+
+.room-info h3{
+
+    color:#0f172a;
+
+    margin-bottom:12px;
+
+    font-weight:600;
+}
+
+.room-info p{
+
+    color:#64748b;
+}
+
+.price{
+
+    color:#f59e0b;
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+.book-btn{
+
+    width:100%;
+
+    margin-top:18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(
+        90deg,
+        #0f172a,
+        #1e293b
+    );
+
+    color:white;
+
+    padding:14px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+.book-btn:hover{
+
+    background:#fbbf24;
+
+    color:#0f172a;
+}
+
+/* FOOTER */
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:50px;
+}
